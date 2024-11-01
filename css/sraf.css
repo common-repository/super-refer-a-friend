@@ -1,0 +1,150 @@
+/*****************************************************************************/
+/** Common. */
+
+.sraf-container * {
+}
+
+.sraf-container .invisible {
+	display: none;
+}
+
+.sraf-container .sraf-widget-title {
+	cursor: pointer;
+}
+
+.sraf-container label{
+	
+}
+
+.sraf-container .generic-button,
+.sraf-container a.anchor-button{
+	display:block;
+	padding:5px;
+	border:1px solid #999;
+	background-color:#ebebeb;
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	margin-left:10px;
+	margin-bottom:5px;
+	width:45px;
+}
+.sraf-container a.anchor-button:hover{
+	text-decoration:none;
+}
+
+/** Important: class "sraf-error" will be for both input and label */
+.sraf-container .sraf-error {
+	font-weight: normal;
+	color: red;
+}
+.sraf-container label.sraf-error {
+	display: block;
+}
+
+
+/*****************************************************************************/
+/** General forms. */
+
+.sraf-container .form-item-textfield{
+	padding:5px 0;
+}
+.sraf-container .form-item-textfield input{
+	border:1px solid #ccc;
+	padding:4px;
+	line-height:14px;
+	margin-top:3px;
+	width: 90%;
+	background-image: none;
+}
+.sraf-container .form-item-textarea{
+	padding:10px 0;
+}
+.sraf-container .form-item-textarea textarea{
+	border:1px solid #ccc;
+	margin-top:3px;
+}
+
+
+/*****************************************************************************/
+/** Admin control forms. */
+
+.sraf-widget-option-form .form-item {
+	margin-top: 5px;
+}
+.sraf-widget-option-form .sraf-range {
+	font-style: italic;
+	margin-left: 3px;
+}
+
+
+/*****************************************************************************/
+/** All friend emails form. */
+
+.sraf-container .friend-emails {
+	padding:0px 0;
+}
+.sraf-container .friend-email-info-initial {
+	margin-left: 10px;
+}
+
+.sraf-container .friend-email-info-additional td {
+	vertical-align: top;
+}
+
+.sraf-container .friend-email-info-additional .friend-email-title-con {
+	padding-top: 8px;
+}
+
+.sraf-container .friend-email-field {
+	white-space: nowrap;
+}
+.sraf-container .form-item-textfield .remove-friend-email{
+	padding:0 2px;
+	background-color:#ccc;
+	color:#000;
+	font-weight:bold;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+.sraf-container .add-new-email-button{
+	border:1px solid #ccc;
+	font-style:italic;
+	color:green;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+
+/*****************************************************************************/
+/** Mail submission form. */
+
+.sraf-container #mail_submission_form .form-item-textarea textarea{
+	width:293px;
+	height:130px;
+}
+
+#mail_submission_form .sraf-sender-name label.sraf-error,
+#mail_submission_form .sraf-sender-email label.sraf-error {
+	margin-left: 70px;
+}
+#mail_submission_form .sraf-captcha-text label.sraf-error {
+	margin-left: 120px;
+}
+
+
+/*****************************************************************************/
+/** Sponsor links */
+
+.sraf-sponsor-link-wrapper {
+	color: black;
+}
+
+.sraf-sponsor-link-wrapper .sraf-sponsor-link,
+.sraf-sponsor-link-wrapper .sraf-sponsor-link:hover,
+.sraf-sponsor-link-wrapper .sraf-sponsor-link:active {
+	color: black;
+	font-size: 11px;
+}
